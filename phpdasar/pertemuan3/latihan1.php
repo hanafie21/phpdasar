@@ -46,7 +46,21 @@ $i = 0;
             <td>2,4</td>
             <td>2,5</td>
         </tr> -->
+
+        <?php 
+    
+    for($i = 0; $i <=3; $i++) {
+        echo "<tr>";
+        for($j = 0; $j <= 5; $j++) {
+            echo "<td>$i,$j</td>";
+        }
+        echo "</tr>"; 
+    }
+    
+    ?>
         
     </table>
+
+    
 </body>
 </html>
